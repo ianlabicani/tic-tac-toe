@@ -1,0 +1,13 @@
+<h1 *ngIf="!winner">Current Player: {{ player }}</h1>
+<p *ngIf="!winner && moves === 9">
+  No Winner. Resseting the game in {{ resetTime }}
+</p>
+<h2 *ngIf="winner">Player {{ winner }} won the game!</h2>
+<button class="p-button" (click)="newGame()">New game</button>
+<main>
+  <app-card
+    *ngFor="let card of cards; let idx = index"
+    [value]="card"
+    (click)="makeMove(idx)"
+  ></app-card>
+</main>

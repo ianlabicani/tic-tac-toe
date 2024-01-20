@@ -1,0 +1,14 @@
+.here {
+  margin-bottom: 10px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid: 0px;
+
+  app-card {
+    border: 1px solid black;
+    height: 150px;
+  }
+}
