@@ -27,6 +27,7 @@
     "@typescript-eslint/eslint-plugin": "6.19.0",
     "@typescript-eslint/parser": "6.19.0",
     "eslint": "^8.56.0",
+    "firebase-tools": "^13.0.3",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
@@ -50,7 +51,15 @@
       },
       {
         "file": ".firebaserc",
-        "hash": "11399050570734828004"
+        "hash": "6394209894011817990"
+      },
+      {
+        "file": ".github/workflows/firebase-hosting-merge.yml",
+        "hash": "2763576037499548792"
+      },
+      {
+        "file": ".github/workflows/firebase-hosting-pull-request.yml",
+        "hash": "16538775027744073145"
       },
       {
         "file": ".gitignore",
@@ -78,7 +87,7 @@
       },
       {
         "file": "firebase.json",
-        "hash": "159027530690860043"
+        "hash": "5858656768417128983"
       },
       {
         "file": "ngsw-config.json",
@@ -86,11 +95,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "12666686522928540069"
+        "hash": "18379313049300066716"
       },
       {
         "file": "package.json",
-        "hash": "13730335795203806545"
+        "hash": "4623868733325734943"
       },
       {
         "file": "src/app/app.component.html",
@@ -122,7 +131,7 @@
       },
       {
         "file": "src/app/board/board.component.scss",
-        "hash": "6769508931972094149"
+        "hash": "14102921518599955361"
       },
       {
         "file": "src/app/board/board.component.spec.ts",
@@ -134,11 +143,11 @@
       },
       {
         "file": "src/app/card/card.component.html",
-        "hash": "298079012672871230"
+        "hash": "1564598945325492559"
       },
       {
         "file": "src/app/card/card.component.scss",
-        "hash": "10081503693312313994"
+        "hash": "14335521137155650154"
       },
       {
         "file": "src/app/card/card.component.spec.ts",
@@ -146,7 +155,7 @@
       },
       {
         "file": "src/app/card/card.component.ts",
-        "hash": "770952712306678479"
+        "hash": "5734542141670478041"
       },
       {
         "file": "src/assets/.gitkeep",
