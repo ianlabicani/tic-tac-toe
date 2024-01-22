@@ -1,1 +1,6 @@
-<button class="b" color="primary">{{ value }}</button>
+<button
+  [ngClass]="{ empty: value == null, X: value == 'X', O: value == 'O' }"
+  color="primary"
+>
+  {{ value }}
+</button>

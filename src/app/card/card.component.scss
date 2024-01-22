@@ -2,5 +2,14 @@ button {
   height: 100%;
   width: 100%;
   font-size: 4rem;
-  background-color: var(--cyan-400);
+
+  &.empty {
+    background-color: gray;
+  }
+  &.X {
+    background-color: green;
+  }
+  &.O {
+    background-color: yellow;
+  }
 }
